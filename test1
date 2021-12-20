@@ -1,0 +1,15 @@
+# Credit Limit Calculator Program
+
+Party_Name = input("Enter party Name Here : ")
+Credit_Limit = int(input("Enter Credit Limit Here : "))
+Opening_Balance_Date = input("Enter Opening Balance Date Here : ")
+Opening_Balance = int(input("Enter Opening Balance Here : "))
+Last_Sales_date = input("Enter Last Sales Date Here : ")
+Last_Sales = int(input("Enter last Sales value Here : "))
+
+Calculation_Value = (Opening_Balance + Last_Sales) - Credit_Limit
+
+print("Party Name : ",Party_Name)
+print("Credit Limit = ",Credit_Limit)
+print("Last Sales = ",Last_Sales)
+print("Payable Amount = ",Calculation_Value)
